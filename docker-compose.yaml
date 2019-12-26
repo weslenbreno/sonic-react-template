@@ -1,0 +1,15 @@
+version: '3.7'
+
+services:
+  react-front-dev:
+    container_name: react-front-dev
+    build:
+      context: .
+      dockerfile: dev.Dockerfile
+    volumes:
+      - '.:/app'
+      - '/app/node_modules'
+    ports:
+      - '3000:3000'
+    environment:
+      - NODE_ENV=development
