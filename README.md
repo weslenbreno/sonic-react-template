@@ -6,4 +6,4 @@
 - Sagas
 - Styled Components
 
-# Made by SupersonicSev team
+# Made by SupersonicDev team
